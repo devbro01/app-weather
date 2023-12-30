@@ -1,5 +1,32 @@
+html {
+  overflow: hidden;
+}
 body {
-  background-color: #eeede2;
+  background: hsla(192, 95%, 50%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(192, 95%, 50%, 1) 0%,
+    hsla(225, 89%, 47%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(192, 95%, 50%, 1) 0%,
+    hsla(225, 89%, 47%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(192, 95%, 50%, 1) 0%,
+    hsla(225, 89%, 47%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#07C8F9", endColorstr="#0D41E1", GradientType=1 );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
 }
